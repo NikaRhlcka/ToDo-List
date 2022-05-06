@@ -19,7 +19,7 @@ public class Main {
                     2.View all tasks
                     3.View single task
                     4.Mark task as 'Done'
-                    5.Delete task
+                    5.Delete ToDo list
                     Type 'exit' to exit menu.
                     """);
 
@@ -40,7 +40,7 @@ public class Main {
                 case "4","Mark task as 'Done'":
                     tdList.markTodoAsDone();
                     break;
-                case "5","Delete task":
+                case "5","Delete ToDo List":
                     tdList.deleteTodo();
                     break;
                 default:

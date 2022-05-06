@@ -36,7 +36,6 @@ public class TodoList {
    void viewSingleTodo(){
        System.out.println("Input tasks ID you want to view:");
        int taskID = intScanner.nextInt();
-       //taskID = taskID+1;
 
        Todo task = tasks.get(taskID-1);
        System.out.println(task.id + ". " +  task.description);
